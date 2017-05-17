@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="HWTestPack.SubmitForm">
+        <methods>
+          <include name="nullValues"/>
+          <include name="setUp"/>
+          <include name="multipleRadioSelect"/>
+          <include name="tearDown"/>
+          <include name="ieForm"/>
+        </methods>
+      </class> <!-- HWTestPack.SubmitForm -->
+      <class name="HWTestPack.BVA">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="phoneTwentyOneDigits"/>
+        </methods>
+      </class> <!-- HWTestPack.BVA -->
+      <class name="HWTestPack.EmailChecks">
+        <methods>
+          <include name="confirmEmailCheck"/>
+          <include name="setUp"/>
+          <include name="invalidEmail"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- HWTestPack.EmailChecks -->
+      <class name="HWTestPack.SubmitFormSpecialCharacters">
+        <methods>
+          <include name="setUp"/>
+          <include name="ieSpecialCharacters"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- HWTestPack.SubmitFormSpecialCharacters -->
+      <class name="HWTestPack.BrokenLinks">
+        <methods>
+          <include name="validateInvalidLinksFF"/>
+          <include name="setUp"/>
+          <include name="validateInvalidLinksChrome"/>
+          <include name="tearDown"/>
+          <include name="validateInvalidLinksIE"/>
+        </methods>
+      </class> <!-- HWTestPack.BrokenLinks -->
+      <class name="HWTestPack.CheckLabels">
+        <methods>
+          <include name="ieLabels"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- HWTestPack.CheckLabels -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
